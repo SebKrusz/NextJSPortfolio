@@ -80,7 +80,7 @@ export const projectsData = [
 	{
 		title: "CSKB",
 		description:
-			"This platform is designed to empower gamers by providing a comprehensive set of tools for safe and informed Counter-Strike trading. Whether you're checking links, analyzing in-game items, or seeking influencers and websites, our knowledge base has you covered.",
+			"This platform is designed to empower gamers by providing a comprehensive set of tools for safe and informed Counter-Strike trading.",
 		tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
 		imageUrl: rmtdevImg,
 	},
@@ -92,7 +92,11 @@ export const projectsData = [
 		imageUrl: wordanalyticsImg,
 	},
 ] as const;
-
+// title: "CSKB",
+// description:
+// 	"This platform is designed to empower gamers by providing a comprehensive set of tools for safe and informed Counter-Strike trading. Whether you're checking links, analyzing in-game items, or seeking influencers and websites, our knowledge base has you covered.",
+// tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
+// imageUrl: rmtdevImg,
 export const skillsData = [
 	"HTML",
 	"CSS",
