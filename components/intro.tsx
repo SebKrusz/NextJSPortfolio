@@ -3,6 +3,9 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
 	return (
@@ -48,9 +51,31 @@ export default function Intro() {
 				building <span className="italic">sites & apps</span>. My focus
 				is <span className="underline">React (Next.js)</span>.
 			</motion.p>
-			<div>
-				<Link href="#contact">Contact me here</Link>
-			</div>
+			<motion.div
+				className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+				initial={{ opacity: 0, y: 100 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ delay: 0.1 }}>
+				<Link
+					href="#contact"
+					className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+					Contact me here
+					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+				</Link>
+				<a
+					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer"
+					href="/Sebastian_Kruszewski_Resume.pdf"
+					download={true}>
+					Download Resume{" "}
+					<HiDownload className="opacity-60 group-hover:translate-y-1 transition" />{" "}
+				</a>
+				<a className="bg-white text-gray-700 px-7 p-4 flex items-center gap-2 rounded-full">
+					<BsLinkedin />
+				</a>
+				<a className="bg-white text-gray-700 px-7 text-[1.35rem] p-4 flex items-center gap-2 rounded-full">
+					<FaGithubSquare />
+				</a>
+			</motion.div>
 		</section>
 	);
 }
