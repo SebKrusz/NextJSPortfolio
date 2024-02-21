@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/instock.png";
-import rmtdevImg from "@/public/bandsite.png";
-import wordanalyticsImg from "@/public/cskb.png";
+import rmtdevImg from "@/public/cskb.png";
+import wordanalyticsImg from "@/public/brainflix.jpg";
 
 export const links = [
 	{
@@ -62,24 +62,33 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "inStock",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+			"This project involves building a full-stack React application, 'InStock,' for an Inventory Management System catering to a Fortune 500 client.",
+		tags: [
+			"React",
+			"Node",
+			"Express",
+			"MySQL",
+			"SCSS/SASS",
+			"Postman",
+			"Figma",
+			"Jira",
+		],
 		imageUrl: corpcommentImg,
 	},
 	{
-		title: "rmtDev",
+		title: "CSKB",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+			"This platform is designed to empower gamers by providing a comprehensive set of tools for safe and informed Counter-Strike trading. Whether you're checking links, analyzing in-game items, or seeking influencers and websites, our knowledge base has you covered.",
+		tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
 		imageUrl: rmtdevImg,
 	},
 	{
-		title: "Word Analytics",
+		title: "BrainFlix",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+			"Tasked with building a prototype for a video streaming platform, this project involves creating a video streaming application.",
+		tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
 		imageUrl: wordanalyticsImg,
 	},
 ] as const;
@@ -94,14 +103,10 @@ export const skillsData = [
 	"Node.js",
 	"Git",
 	"Tailwind",
-	"Prisma",
 	"MongoDB",
-	"Redux",
 	"GraphQL",
-	"Apollo",
 	"Express",
 	"PostgreSQL",
 	"Python",
-	"Django",
 	"Framer Motion",
 ] as const;
