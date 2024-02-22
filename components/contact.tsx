@@ -7,9 +7,11 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import { send } from "process";
+import { useFormStatus } from "react-dom";
 
 export default function Contact() {
 	const { ref } = useSectionInView("Contact", 0.5);
+	const { pending } = useFormStatus();
 
 	return (
 		<motion.section
