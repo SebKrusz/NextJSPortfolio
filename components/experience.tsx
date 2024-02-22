@@ -10,7 +10,7 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-	const { ref, inView } = useSectionInView("Experience", 0.3);
+	const { ref, inView } = useSectionInView("Experience", 0.1);
 
 	return (
 		<section id="experience" className="scroll-mt-28 mb-28 sm:40" ref={ref}>
