@@ -124,4 +124,8 @@ export const skillsData = [
 	"PostgreSQL",
 	"Python",
 	"Framer Motion",
+	"NextAuth",
+	"OAuth",
+	"MongoDB",
+	"Pusher",
 ] as const;
