@@ -128,4 +128,5 @@ export const skillsData = [
 	"OAuth",
 	"MongoDB",
 	"Pusher",
+	"Cloudinary",
 ] as const;
