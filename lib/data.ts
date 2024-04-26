@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/instock.png";
 import rmtdevImg from "@/public/cskb.png";
 import wordanalyticsImg from "@/public/brainflix.jpg";
+import tarkovchat from "@/public/TarkovChat.png";
 
 export const links = [
 	{
@@ -79,7 +80,7 @@ export const projectsData = [
 	{
 		title: "inStock",
 		description:
-			"This project involves building a full-stack React application, 'InStock,' for an Inventory Management System catering to a Fortune 500 client.",
+			"An Inventory Management System made to be scalable for larger businesses. ",
 		tags: [
 			"React",
 			"Node",
@@ -93,18 +94,31 @@ export const projectsData = [
 		imageUrl: corpcommentImg,
 	},
 	{
-		title: "CSKB",
+		title: "Counter-Strike Knowledge Base",
 		description:
-			"This platform is designed to empower gamers by providing a comprehensive set of tools for safe and informed Counter-Strike trading.",
+			"A platform designed as a comprehensive set of tools for safe and informed trading of cosmetic Counter-Strike items.",
 		tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
 		imageUrl: rmtdevImg,
 	},
 	{
 		title: "BrainFlix",
-		description:
-			"Tasked with building a prototype for a video streaming platform, this project involves creating a video streaming application.",
+		description: "A prototype for a video streaming platform.",
 		tags: ["React", "Node", "Express", "MySQL", "SCSS/SASS", "Postman"],
 		imageUrl: wordanalyticsImg,
+	},
+	{
+		title: "Tarkov Chat",
+		description:
+			"An app that allows users to create an account, log in, create groups and chat with other users in real-time.",
+		tags: [
+			"Next.js",
+			"TypeScript",
+			"Next-Auth",
+			"MongoDB",
+			"Next Cloudinary",
+			"Pusher",
+		],
+		imageUrl: tarkovchat,
 	},
 ] as const;
 
