@@ -24,27 +24,31 @@ export default function About() {
 				pursue my passion for programming. I enrolled in a coding
 				bootcamp and learned{" "}
 				<span className="font-medium">full-stack web development</span>.{" "}
-				<span className="italic">My favorite part of programming</span>{" "}
-				is the problem-solving aspect. I{" "}
-				<span className="underline">love</span> the feeling of finally
-				figuring out a solution to a problem. My core stack is{" "}
+				<span className="italic">
+					My favorite part of programming & web development
+				</span>{" "}
+				is making useful applications that are modern and sleek. I{" "}
+				<span className="underline">love</span> the feeling of making
+				something and having people use it. I have the inclination that
+				it's how a chef feels when they see their patrons enjoying thier
+				meals from the kitchen. It's a warm, fuzzy feeling that keeps me
+				coming back. My core stack is{" "}
 				<span className="font-medium">
-					React, Next.js, Node.js, and MySQL
+					React, Node.js, Express.js and MySQL
 				</span>
-				. I am also familiar with TypeScript and PostgreSQL. I am always
-				looking to learn new technologies. I am currently looking for a{" "}
+				. I am also familiar with Next.js, TypeScript, MongoDB and
+				PostgreSQL. I am always looking to learn new technologies. I am
+				currently looking for a{" "}
 				<span className="font-medium">full-time position</span> as a
 				software developer.
 			</p>
 			<p>
 				{" "}
 				<span className="italic">When I'm not coding</span>, I enjoy
-				playing video games, watching video essays, and playing with my
-				dog. I also enjoy{" "}
-				<span className="font-medium">learning new things</span>. I am
-				currently learning about{" "}
-				<span className="font-medium">history and philosophy</span>. I'm
-				also learning to cook to better my health.
+				playing video games, watching video essays, and working out. I
+				enjoy <span className="font-medium">learning new things</span>,
+				I am currently learning about{" "}
+				<span className="font-medium">paleolithic history</span>.
 			</p>
 		</motion.section>
 	);

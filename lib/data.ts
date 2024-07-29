@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/instock.png";
 import rmtdevImg from "@/public/cskb.png";
 import wordanalyticsImg from "@/public/brainflix.jpg";
 import tarkovchat from "@/public/TarkovChat.png";
+import consulting from "@/public/Consulting.png";
 
 export const links = [
 	{
@@ -66,12 +67,21 @@ export const experiencesData = [
 		icon: React.createElement(FaReact),
 		date: "2023",
 	},
+
 	{
 		title: "Full-Stack Developer",
 		location: "Vancouver, BC",
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Node, Express, Next.js, TypeScript, Tailwind, Prisma and MySQL. I'm currently looking for full-time opportunities.",
+			"I'm now a full-stack developer working as a freelancer. My stack includes React, Node, Express, Next.js, TypeScript, Tailwind, Prisma and MySQL along with maybe other skills. I'm currently looking for full-time opportunities.",
 		icon: React.createElement(FaReact),
+		date: "2024",
+	},
+	{
+		title: "Kleinberg Consulting Full-Stack Developer",
+		location: "Vancouver, BC",
+		description:
+			"Working under short-term contract for a consulting firm that specializes in helping businesses grow using the latest and greatest web-tools.",
+		icon: React.createElement(CgWorkAlt),
 		date: "Present",
 	},
 ] as const;
@@ -120,6 +130,20 @@ export const projectsData = [
 		],
 		imageUrl: tarkovchat,
 	},
+	{
+		title: "Kleinberg Consulting",
+		description:
+			"A made website for a consulting firm that I am doing contract work for that specializes in helping businesses grow using the latest and greatest web-tools.",
+		tags: [
+			"React",
+			"Axios",
+			"Zoho CRM",
+			"Framer Motion",
+			"Node",
+			"Express",
+		],
+		imageUrl: consulting,
+	},
 ] as const;
 
 export const skillsData = [
@@ -143,4 +167,5 @@ export const skillsData = [
 	"MongoDB",
 	"Pusher",
 	"Cloudinary",
+	"Zoho CRM",
 ] as const;
