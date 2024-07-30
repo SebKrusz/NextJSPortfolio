@@ -133,7 +133,7 @@ export const projectsData = [
 	{
 		title: "Kleinberg Consulting",
 		description:
-			"A made website for a consulting firm that I am doing contract work for that specializes in helping businesses grow using the latest and greatest web-tools.",
+			"A website for a consulting firm that I am doing contract work for that specializes in helping businesses grow using the latest and greatest web-tools.",
 		tags: [
 			"React",
 			"Axios",
